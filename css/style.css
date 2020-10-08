@@ -1,0 +1,268 @@
+ 
+ *
+ {
+    box-sizing: border-box;
+    padding: 0 ;
+    margin:  0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+/*  -------------   this is styles of navbar */
+
+nav 
+{
+    background-color: rgb(78, 75, 75);
+    width: 100%;
+}
+
+
+nav ul li 
+{
+    float: left;
+    padding: 0px 10px 0px 10px;
+    margin: 5px;
+    list-style: none;
+}
+nav ul li:first-of-type
+{
+    background-color: #09c;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+
+}
+
+
+/*     -------------    This  is styles of header section */
+
+
+header .img
+{
+    width: 40% ;
+}
+
+header .img img 
+{
+    width: 100%;
+    background-size: 100% 100%;
+    float: left;
+}
+
+header .text
+{
+    width: 60% ;
+    float: right;
+    color: rgb(41, 171, 214);
+    margin-top: 50px;
+    
+}
+header .text h2
+{
+    width: 100% ; 
+   text-align: center; 
+    padding: 20px; 
+    margin:  50px auto;
+    left: 0; 
+    bottom: 0 ;
+    padding-right: 70px;
+    font-size: 30px;
+}
+
+header section{
+   
+    padding: 10px;
+   overflow: hidden;
+   position: relative;
+   top: -10px;
+  
+}
+
+header section div 
+{
+     width: 23%; 
+     text-align: center;
+     float: left;
+     background-color: #09c;
+     padding: 10px;
+     margin: 2px;
+    
+}
+header section  .contain
+{
+    padding: 10px;
+}
+
+/*  ------  This the styles of section icon two */
+.item 
+{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+section .child 
+{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*     ------ tje styles of section three */
+
+.three
+{
+    width: 100%;
+   padding: 5px; 
+   text-align: center;
+
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+
+}
+.three div
+{
+    width: 33.3%;
+    float: left;
+}
+
+.three  .childone
+{
+    text-align: center;
+   
+}
+.three  .childone button
+{
+    background-color: #09c;
+    width: 100px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.three  .childtwo h4
+{
+   color: #09c  ;
+   border-bottom: 2px solid #EEE;
+   padding: 5px ;
+}
+
+
+
+
+footer
+{
+    display: flex; 
+    width: 100%; 
+    justify-content:space-evenly ;
+   
+    background-color: rgba(0, 0, 0, .5);
+    padding-left: 100px;
+}
+
+footer i 
+{
+    width: 25%;
+  
+}
+footer i img
+{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+.clear
+{
+    clear: both;
+}
+
+
+
+@media (max-width:700px ) and (min-width: 400px ) 
+{
+    nav ul li a
+    {
+        font-size: 12px;
+    }
+
+    header .img
+{
+    width: 100% ;
+}
+header .text
+{
+    width: 100%;
+    padding-left: 50px;
+}
+
+header section div 
+{
+    width: 100%;
+}
+
+
+.item 
+{
+    width: 100%;
+}
+
+
+.three div
+{
+    width: 100%;
+    padding: 20px;
+}
+}
+
+
+
+
+
+@media (max-width:950px ) and (min-width: 701px ) 
+{
+    nav ul li a
+    {
+        font-size: 18px;
+    }
+
+    header .img
+{
+    width: 50% ;
+}
+header .text
+{
+    width: 50%;
+    padding-left: 50px;
+}
+
+header section div 
+{
+    width: 45%;
+}
+
+
+.item 
+{
+    width: 50%;
+}
+
+
+.three div
+{
+    width: 100%;
+    padding: 20px;
+}
+}
